@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="aws2-wrap",
-    version="1.0.2",
+    name="aws2-wrap2",
+    version="2.0.0",
     description="A wrapper for executing a command with AWS CLI v2 and SSO",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/linaro-its/aws2-wrap",
+    url="https://github.com/bigwheel/aws2-wrap",
     author="Philip Colmer",
-    author_email="it-support@linaro.org",
+    author_email="k.bigwheel+eng@gmail.com",
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
@@ -28,7 +28,7 @@ setup(
     install_requires=[],
     entry_points={
         'console_scripts': [
-            'aws2-wrap = aws2wrap:main',
+            'aws2-wrap2 = aws2wrap:main',
         ]
     },
     python_requires=">=3.6",
