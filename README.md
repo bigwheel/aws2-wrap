@@ -11,7 +11,7 @@ This is a simple script to facilitate exporting the current AWS SSO credentials 
 
 https://pypi.org/project/aws2-wrap2
 
-`pip install aws2-wrap2==2.0.0`
+`pip install aws2-wrap2==2.0.1`
 
 ## Run a command using AWS SSO credentials
 
